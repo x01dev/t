@@ -3,7 +3,7 @@ services:
     name: llama-api
     env: docker
     plan: free          # stays on free tier
-    dockerfilePath: ./dockerfile
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: OLLAMA_HOST
         value: 0.0.0.0:11434
